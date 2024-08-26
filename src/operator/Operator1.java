@@ -19,11 +19,12 @@ public class Operator1 {
         System.out.println("a * b =" + multi);
 
         // 나눗셈
-        int div = 5 / 2;
+        int div = a / b;
         System.out.println("a / b =" + div);
 
         // 나머지
         int mod = a % b; // 5/2 몫 2 나머지 1
         System.out.println("a % b =" + mod);
+        
     }
 }
